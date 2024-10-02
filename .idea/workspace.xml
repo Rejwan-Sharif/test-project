@@ -1,33 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="620e34f0-6956-4637-98bd-42b12d31be5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Huawei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/PhoneFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/Address/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/customers/Customers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/products/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/vendor/Vendor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6f56206c-b889-431d-bec5-2faa65222910.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6f56206c-b889-431d-bec5-2faa65222910/storage_v2/_src_/schema/C__TEST_APP.tz2fjQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/MathClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/TestDummyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/aspect/AspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Dell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/DeviceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Hp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/LaptopFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Oppo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/PhoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/observer/Observar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/proxyPattern/LiveProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/proxyPattern/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/proxyPattern/ProxyProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/singelton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/singelton/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/DatabaseConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/MyComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/PrototypeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/ResultType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/SingeltoneBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/TypeOfStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/applicationEventPublisher/ThreadConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/applicationEventPublisher/UserEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/applicationEventPublisher/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/applicationEventPublisher/UserLoginEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/CustomBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedScope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/OurBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-qa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_bangla.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/OurBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-prod.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application-qa.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/TestingDummyClass/MathClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/TestingDummyClass/TestDummyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/aspect/AspectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/Dell.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/Device.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/DeviceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/Hp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/IPhone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/Laptop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/LaptopFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/Oppo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/abstractFactoryMethod/PhoneFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/factoryPattern/Huawei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/factoryPattern/Iphone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/factoryPattern/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/factoryPattern/Phone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/factoryPattern/PhoneFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/observer/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/observer/Observable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/observer/Observar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/prototype/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/prototype/DataSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/prototype/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/prototype/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/proxyPattern/LiveProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/proxyPattern/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/proxyPattern/ProxyProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/singelton/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/designPettern/singelton/ProductDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/Address/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/customers/Customers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/products/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/vendor/Vendor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/AccountBasicInfoProjection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/DatabaseConnector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/MyComponent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/PrototypeBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/ResultType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/SingeltoneBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/TypeOfStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/applicationEventPublisher/ThreadConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/applicationEventPublisher/UserEventController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/applicationEventPublisher/UserLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/applicationEventPublisher/UserLoginEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/scope/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/scope/TimedBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/scope/TimedScope.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/OrderRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/ProductController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/ProductRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/ProductService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/messages_bangla.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Huawei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Huawei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Iphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Iphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/PhoneFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/PhoneFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application-rejwan.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-rejwan.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardCastomerBasicInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardCastomerBasicInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/DataTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/DataTypes.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/application$Main__4_.ic" NAME="Main (4) Coverage Results" MODIFIED="1723484737166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.test.springParactice.basicSpring.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/application$Test.ic" NAME="Test Coverage Results" MODIFIED="1721581326795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.test.*</FILTER>
     </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -59,128 +206,13 @@
     </expand>
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-341223170">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="21" />
-          <entry key="html" value="15" />
-          <entry key="java" value="4476" />
-          <entry key="properties" value="21" />
-          <entry key="sql" value="304" />
-          <entry key="txt" value="25" />
-          <entry key="xml" value="26" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HTML" value="15" />
-          <entry key="JAVA" value="4476" />
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Properties" value="21" />
-          <entry key="Scratch" value="304" />
-          <entry key="XML" value="26" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="10" />
-          <entry key="html" value="1" />
-          <entry key="java" value="34" />
-          <entry key="properties" value="3" />
-          <entry key="sql" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="10" />
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="34" />
-          <entry key="Properties" value="3" />
-          <entry key="Scratch" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.spring.boot.mvc.usages">
-        <counts>
-          <entry key="RestClientRequestRunnerNavigator.fromCode" value="6" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1348623005">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="PRODUCT" value="1" />
-          <entry key="class" value="3" />
-          <entry key="java" value="29" />
-          <entry key="order" value="2" />
-          <entry key="product" value="1" />
-          <entry key="properties" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="Database Element" value="4" />
-          <entry key="JAVA" value="29" />
-          <entry key="Properties" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="5" />
-          <entry key="java" value="3680" />
-          <entry key="properties" value="29" />
-          <entry key="txt" value="20" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3680" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Properties" value="29" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Phone.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Result.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/PhoneFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="154">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -189,28 +221,111 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Iphone.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/TypeOfStudent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/SingeltoneBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/PrototypeBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedScope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-407">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="41" column="72" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Huawei.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="264">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/CustomBeanFactoryPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+            <state relative-caret-position="352">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +336,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="spring-beans.schema" />
         <option value="Enum" />
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -232,42 +349,27 @@
       <find>Saving:</find>
       <find>setAccountNo</find>
       <find>getBean</find>
+      <find>createDevice</find>
+      <find>COnfiguration</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Rejwan-Sharif/test-project.git",
+    "accountId": "5d8f4c75-104a-415d-892e-f62321cf781b"
+  }
+}]]></component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/test/UnisoftApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/DateParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/DataTypes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/SetDataTypesValues.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardCastomerBasicInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/AccountBasicInfoProjection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataService.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6f56206c-b889-431d-bec5-2faa65222910/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/ProductRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/ProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/ProductRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/Order.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/ecommerce/customers/CustomersEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/ecommerce/products/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/ecommerce/vendor/Vendor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/ecommerce/customers/Customers.java" />
@@ -277,8 +379,48 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Huawei.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/PhoneFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/factoryPattern/Huawei.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/IPhone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/Oppo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/Device.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/Phone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/Laptop.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/LaptopFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/PhoneFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/DeviceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/Dell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/Hp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/abstractFactoryMethod/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/singelton/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/singelton/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/singelton/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/DataSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/OurBean.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/MyComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/ResultType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Type.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/TypeOfStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/SingeltoneBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/PrototypeBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedScope.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/CustomBeanFactoryPostProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/AppConfig.java" />
       </list>
     </option>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -297,10 +439,31 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1029" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1250" />
+    <option name="width" value="680" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectId" id="2lQkmRF3byMZQgkbUsxbsf1QNAw" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -349,42 +512,99 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="factoryPettern" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSpring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="basicSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="scope" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-context:5.0.11.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-context-5.0.11.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="oracle" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1722359742782" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestEventApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.test.springParactice.basicSpring.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rejwan&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my-projects/test-project/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\HP\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="da144aa5-f6c0-4397-a6f3-527724cdf4da" reportId="application/qodana/2024-09-04" />
+    </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test.springParactice.basicSpring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my-projects\test-project\src\main\resources" />
       <recent name="D:\test-project\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my-projects\test-project\src\main\resources" />
+      <recent name="D:\my-projects\test-project\src\main\java\com\test\springParactice\basicSpring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.test" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -400,25 +620,79 @@
       </list>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.designPettern.factoryPettern.Main" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.designPettern.prototype.Main" />
       <module name="test-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.designPettern.factoryPettern.*" />
+          <option name="PATTERN" value="com.test.designPettern.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="application.properties" value="rejwan" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.test.designPettern.observer.Main" />
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.designPettern.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name="application.properties" value="rejwan" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.test.Test" />
+      <module name="application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestEventApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="application.properties" value="rejwan" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.test.springParactice.basicSpring.applicationEventPublisher.TestEventApp" />
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.springParactice.basicSpring.applicationEventPublisher.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <envs>
+        <env name="application.properties" value="rejwan" />
+      </envs>
+      <module name="application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test.springParactice.basicSpring.Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.springParactice.basicSpring.Main" />
+      <module name="application" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.springParactice.basicSpring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,15 +716,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Test" />
+      <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestEventApp" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.com.test.springParactice.basicSpring.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestEventApp" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.com.test.springParactice.basicSpring.Main" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -475,7 +757,30 @@
       <workItem from="1721575583135" duration="14355000" />
       <workItem from="1721796944298" duration="919000" />
       <workItem from="1722357262832" duration="2461000" />
-      <workItem from="1722359844391" duration="1866000" />
+      <workItem from="1722359844391" duration="2004000" />
+      <workItem from="1723048031419" duration="3547000" />
+      <workItem from="1723054397567" duration="988000" />
+      <workItem from="1723087697216" duration="699000" />
+      <workItem from="1723088455806" duration="42000" />
+      <workItem from="1723134726698" duration="2272000" />
+      <workItem from="1723306760588" duration="3950000" />
+      <workItem from="1723347795369" duration="59000" />
+      <workItem from="1723392755476" duration="5818000" />
+      <workItem from="1723434098122" duration="67000" />
+      <workItem from="1723480262993" duration="218000" />
+      <workItem from="1723480567878" duration="4374000" />
+      <workItem from="1723523213722" duration="114000" />
+      <workItem from="1724170941710" duration="3978000" />
+      <workItem from="1724210926078" duration="2402000" />
+      <workItem from="1724435198152" duration="4157000" />
+      <workItem from="1724489693549" duration="1184000" />
+      <workItem from="1724521223739" duration="572000" />
+      <workItem from="1724559243765" duration="3261000" />
+      <workItem from="1724600624789" duration="3846000" />
+      <workItem from="1724689215148" duration="1652000" />
+      <workItem from="1724733209666" duration="53000" />
+      <workItem from="1724860524846" duration="3854000" />
+      <workItem from="1724905817525" duration="601000" />
     </task>
     <task id="LOCAL-00001" summary="Projections Added">
       <created>1719316229101</created>
@@ -491,11 +796,18 @@
       <option name="project" value="LOCAL" />
       <updated>1720014458897</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Transection adedd">
+      <created>1722363355568</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722363355568</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106848000" />
+    <option name="totallyTimeSpent" value="154694000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -507,9 +819,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="0" width="782" height="823" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.333795" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22550336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -519,18 +831,18 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53846157" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47202295" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="5" weight="0.32365748" />
-      <window_info anchor="bottom" id="Spring" order="6" weight="0.32946298" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32281205" />
+      <window_info anchor="bottom" id="Spring" order="6" weight="0.32855093" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946298" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32998565" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32946298" />
-      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32946298" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32855093" />
+      <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32855093" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Debug" order="13" weight="0.53555876" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.53515065" />
       <window_info anchor="bottom" id="Extract Method" order="14" weight="0.32998565" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.6671449" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -542,57 +854,71 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.3295302" />
-      <window_info anchor="right" id="Database" order="9" weight="0.3592233" />
+      <window_info anchor="right" id="Database" order="9" weight="0.3590604" />
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3295302" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Web" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.24966443" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.5408895" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.5652798" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Maven Projects" order="2" weight="0.3295302" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Bean Validation" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projections Added" />
     <MESSAGE value="Transection adedd" />
     <option name="LAST_COMMIT_MESSAGE" value="Transection adedd" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/application$com_test_springParactice_basicSpring_Main.ic" NAME="com.test.springParactice.basicSpring.Main Coverage Results" MODIFIED="1725466379543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>com.test.springParactice.basicSpring.*</FILTER>
+    </SUITE>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>ClassPathXmlApplicationContext(&quot;../../../../../../OurBean.xml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassPathXmlApplicationContext(&quot;../../../../../OurBean.xml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassPathXmlApplicationContext(&quot;../../../../OurBean.xml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassPathXmlApplicationContext(&quot;../../../OurBean.xml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassPathXmlApplicationContext(&quot;../../OurBean.xml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassPathXmlApplicationContext(&quot;../OurBean.xml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassPathXmlApplicationContext(&quot;OurBean.xml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>customerPrimaryDataRepository.findAccountPrimaryData(account,card)</expression-string>
         <language-id>JAVA</language-id>
@@ -603,267 +929,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>customerPrimaryDataService.getCustomerPrimaryData(account,card)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>trimmedArray[2]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cardAccountBasicInfoEntity.setDateOfBirth(trimmedArray[14].isEmpty() ? null : formatter.parse(trimmedArray[14]))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>trimmedArray[14].isEmpty() ? null : formatter.parse(trimmedArray[14])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>!trimmedArray[2].isEmpty() ? trimmedArray[2] : null</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>setStatementDate(trimmedArray[64].isEmpty()  ?  null : formatter.parse(trimmedArray[64]))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>trimmedArray[64].isEmpty() || containsNonNumericCharacters(trimmedArray[64]) ?  null : formatter.parse(trimmedArray[64])</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/UnisoftApplication.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.11.RELEASE/spring-webmvc-5.0.11.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.12.RELEASE/spring-data-commons-2.0.12.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="253" column="43" selection-start-line="253" selection-start-column="43" selection-end-line="253" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/function/IntPredicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.11.RELEASE/spring-web-5.0.11.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/textFileUpload/DataTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/textFileUpload/SetDataTypesValues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardCastomerBasicInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="94" column="65" lean-forward="true" selection-start-line="94" selection-start-column="15" selection-end-line="94" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="105" selection-start-line="8" selection-start-column="105" selection-end-line="8" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6f56206c-b889-431d-bec5-2faa65222910/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-line="8" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/OrderRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="71" lean-forward="true" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://6f56206c-b889-431d-bec5-2faa65222910/schema/C##TEST_APP/table/PRODUCT" />
-    <entry file="das://6f56206c-b889-431d-bec5-2faa65222910/schema/C##TEST_APP/table/product" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://6f56206c-b889-431d-bec5-2faa65222910/schema/C##TEST_APP/table/order" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/AccountBasicInfoProjection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/ecommerce/categories.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/ecommerce/Hello.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.7.RELEASE/spring-boot-autoconfigure-2.0.7.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-rejwan.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/ecommerce/products/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -893,41 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Iphone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Huawei.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/beans/Introspector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-769">
@@ -949,10 +982,336 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPettern/PhoneFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/PhoneFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Huawei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Iphone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Laptop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/LaptopFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Dell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Oppo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/PhoneFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="63" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/DeviceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/singelton/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/IPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/abstractFactoryMethod/Hp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/singelton/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/factoryPattern/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/designPettern/prototype/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="25" column="86" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/MyComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/ResultType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.11.RELEASE/spring-context-5.0.11.RELEASE.jar!/org/springframework/context/ConfigurableApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OurBean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-rejwan.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/TypeOfStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/SingeltoneBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/PrototypeBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/CustomBeanFactoryPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-407">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/TimedBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/scope/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="41" column="72" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -999,7 +1358,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>17</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1011,12 +1370,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test-project</last-edited>
+          <last-edited>Spring|test-project</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
