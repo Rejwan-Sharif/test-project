@@ -9,6 +9,8 @@ import org.springframework.stereotype.Service;
 public class MathClass {
 
 
+
+
     public int sum( int a, int b, int c){
         int d = a+b+c;
         return d;

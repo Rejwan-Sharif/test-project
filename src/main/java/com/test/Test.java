@@ -16,6 +16,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.scheduling.annotation.EnableAsync;
+import org.springframework.web.client.RestTemplate;
 import org.springframework.web.context.annotation.ApplicationScope;
 
 import java.nio.charset.StandardCharsets;
@@ -29,6 +30,12 @@ import java.util.ResourceBundle;
 @SpringBootApplication
 @Slf4j
 public class Test {
+
+
+    @Bean
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
+    }
 
     @Bean
 public MessageSource messageSource(){

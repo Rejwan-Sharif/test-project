@@ -1,5 +1,6 @@
 package com.test.TestingDummyClass;
 
+import com.test.services.RemoteServerCallService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,6 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestDummyController {
 
     private final MathClass mathClass;
+    private final RemoteServerCallService rmi;
+
+    @GetMapping("/api")
+    public String getApi(){
+        return rmi.getData().toString();
+    }
 
     @GetMapping("/aspect")
     public String getData(){
