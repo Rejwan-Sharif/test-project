@@ -16,89 +16,89 @@ import java.util.List;
 @Slf4j
 public class CardCastomerBasicInfoService {
 
-    private final CardAccountBasicInfoRepository cardAccountBasicInfoRepository;
+//    private final CardAccountBasicInfoRepository cardAccountBasicInfoRepository;
 
 
     public void getTextFileData() {
 
         try {
-            File file = new File("D:\\UnisoftFMSoftware\\usl_CRMS_ucb\\Documents\\20220630_83_Entire_Card_Details_Report.txt");
+//            File file = new File("D:\\UnisoftFMSoftware\\usl_CRMS_ucb\\Documents\\20220630_83_Entire_Card_Details_Report.txt");
 
-            FileInputStream fis = new FileInputStream(file);
-            DataInputStream dis = new DataInputStream(fis);
-            BufferedReader br = new BufferedReader(new InputStreamReader(dis));
+//            FileInputStream fis = new FileInputStream(file);
+//            DataInputStream dis = new DataInputStream(fis);
+//            BufferedReader br = new BufferedReader(new InputStreamReader(dis));
 
-            String read;
-            int i = 0;
-            boolean startProcessing = false;
-
-            List<CardAccountBasicInfoEntity> entities = new ArrayList<>();
-            int batchSize = 10000;
-            int count = 0;
-
-            while ((read = br.readLine()) != null) {
-                read = read.trim();
-
-
-                if (read.isEmpty() || read.contains("CLIENT_ID")){
-                    continue;
-                }
-
-
-                if (read.contains("|")) {
-                    startProcessing = true;
-
-                } else {
-                    continue;
-                }
-
-                if (startProcessing) {
-                    String[] splicedLine = read.split("\\|");
-                    String[] trimmedArray = Arrays.stream(splicedLine).map(String::trim).toArray(String[]::new);
-
-                    i++;
-//                    System.out.println("---------------- " + i + ": :");
-
-                    CardAccountBasicInfoEntity cardAccountBasicInfoEntity = new CardAccountBasicInfoEntity();
-                    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-
-
-                     textToEntity(read, trimmedArray, cardAccountBasicInfoEntity, formatter);
-
-                    try {
-
-                        entities.add(cardAccountBasicInfoEntity);
-                        count++;
-
-
-                        if (count == batchSize) {
-                            System.out.println("Saving: " + count);
-                            cardAccountBasicInfoRepository.saveAll(entities);
-                            entities.clear();
-                            count = 0;
-                        }
-//                        else {
-////                            log.error("Warning: Line does not have enough columns. Length: " + " | Line: " + read);
+//            String read;
+//            int i = 0;
+//            boolean startProcessing = false;
+//
+//            List<CardAccountBasicInfoEntity> entities = new ArrayList<>();
+//            int batchSize = 10000;
+//            int count = 0;
+//
+//            while ((read = br.readLine()) != null) {
+//                read = read.trim();
+//
+//
+//                if (read.isEmpty() || read.contains("CLIENT_ID")){
+//                    continue;
+//                }
+//
+//
+//                if (read.contains("|")) {
+//                    startProcessing = true;
+//
+//                } else {
+//                    continue;
+//                }
+//
+//                if (startProcessing) {
+//                    String[] splicedLine = read.split("\\|");
+//                    String[] trimmedArray = Arrays.stream(splicedLine).map(String::trim).toArray(String[]::new);
+//
+//                    i++;
+////                    System.out.println("---------------- " + i + ": :");
+//
+//                    CardAccountBasicInfoEntity cardAccountBasicInfoEntity = new CardAccountBasicInfoEntity();
+//                    SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+//
+//
+//                     textToEntity(read, trimmedArray, cardAccountBasicInfoEntity, formatter);
+//
+//                    try {
+//
+//                        entities.add(cardAccountBasicInfoEntity);
+//                        count++;
+//
+//
+//                        if (count == batchSize) {
+//                            System.out.println("Saving: " + count);
+//                            cardAccountBasicInfoRepository.saveAll(entities);
+//                            entities.clear();
+//                            count = 0;
 //                        }
-
-
-                    } catch (Exception e) {
-
-                        e.printStackTrace();
-                    }
-                }
-            }
-
-            // Save batch when count reaches batchSize
-            if (!entities.isEmpty()) {
-                System.out.println("Saving remaining: " + entities.size());
-                cardAccountBasicInfoRepository.saveAll(entities);
-            }
-
-
-            br.close();
-            dis.close();
-            fis.close();
+////                        else {
+//////                            log.error("Warning: Line does not have enough columns. Length: " + " | Line: " + read);
+////                        }
+//
+//
+//                    } catch (Exception e) {
+//
+//                        e.printStackTrace();
+//                    }
+//                }
+//            }
+//
+//            // Save batch when count reaches batchSize
+//            if (!entities.isEmpty()) {
+//                System.out.println("Saving remaining: " + entities.size());
+//                cardAccountBasicInfoRepository.saveAll(entities);
+//            }
+//
+//
+//            br.close();
+//            dis.close();
+//            fis.close();
 
         } catch (Exception e) {
             e.printStackTrace();
