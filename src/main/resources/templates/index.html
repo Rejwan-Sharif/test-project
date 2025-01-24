@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard with Charts and Table</title>
+    <title>Dashboard with Charts</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         body {
@@ -51,30 +51,6 @@
         .card h2.dashboard { background-color: #009688; }
         .card h2.expenses { background-color: #8bc34a; }
         canvas { max-width: 100%; height: 200px; }
-        .table-container {
-            width: 100%;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 0 auto;
-            background: white;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        th, td {
-            padding: 10px;
-            text-align: center;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f4f4f4;
-            font-weight: bold;
-        }
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
     </style>
 </head>
 <body>
@@ -105,7 +81,6 @@
         <canvas id="expensesChart"></canvas>
     </div>
 </div>
-
 <div class="table-container">
     <h2 style="text-align:center; margin-bottom:20px;">Detailed Data Table</h2>
     <table>
@@ -149,7 +124,7 @@
             <td>Data 19</td>
             <td>Data 20</td>
         </tr>
-        <!-- Add more rows dynamically -->
+
         </tbody>
     </table>
 </div>
@@ -176,7 +151,76 @@
         }
     });
 
-    // Additional charts can remain the same
+    // Allocation Stacked Bar Chart
+    const allocationChart = new Chart(document.getElementById('allocationChart'), {
+        type: 'bar',
+        data: {
+            labels: ['Name 1', 'Name 2', 'Name 3', 'Name 4'],
+            datasets: [
+                { label: 'Series 1', data: [5, 7, 9, 6], backgroundColor: '#3f51b5' },
+                { label: 'Series 2', data: [4, 6, 8, 5], backgroundColor: '#ff9800' },
+                { label: 'Series 3', data: [3, 5, 7, 4], backgroundColor: '#8bc34a' }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { position: 'top' } },
+            scales: { x: { stacked: true }, y: { stacked: true } }
+        }
+    });
+
+    // Burn Down Line Chart
+    const burnDownChart = new Chart(document.getElementById('burnDownChart'), {
+        type: 'line',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr'],
+            datasets: [
+                { label: 'Series 1', data: [5, 3, 4, 6], borderColor: '#3f51b5', fill: false },
+                { label: 'Series 2', data: [4, 5, 3, 4], borderColor: '#ff9800', fill: false },
+                { label: 'Series 3', data: [3, 4, 5, 3], borderColor: '#8bc34a', fill: false }
+            ]
+        },
+        options: { responsive: true }
+    });
+
+    // Status Gauge Chart (using Polar Area Chart as an approximation)
+    const statusChart = new Chart(document.getElementById('statusChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Progress', 'Remaining'],
+            datasets: [{
+                data: [60, 40],
+                backgroundColor: ['#ffc107', '#ddd']
+            }]
+        },
+        options: { responsive: true, cutout: '80%' }
+    });
+
+    // Dashboard Speedometer (Gauge-like using Doughnut)
+    const dashboardChart = new Chart(document.getElementById('dashboardChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Current', 'Remaining'],
+            datasets: [{
+                data: [40, 60],
+                backgroundColor: ['#009688', '#ddd']
+            }]
+        },
+        options: { responsive: true, cutout: '70%' }
+    });
+
+    // Expenses Pie Chart
+    const expensesChart = new Chart(document.getElementById('expensesChart'), {
+        type: 'pie',
+        data: {
+            labels: ['1st Qtr', '2nd Qtr', '3rd Qtr', '4th Qtr'],
+            datasets: [{
+                data: [15, 25, 15, 60],
+                backgroundColor: ['#4caf50', '#3f51b5', '#ff9800', '#8bc34a']
+            }]
+        },
+        options: { responsive: true }
+    });
 </script>
 </body>
 </html>
