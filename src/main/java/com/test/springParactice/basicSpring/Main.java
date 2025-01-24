@@ -15,7 +15,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
-@ComponentScan
+@ComponentScan(
+        basePackages = "springPractice.basicSpring"
+)
 public class Main {
 
 

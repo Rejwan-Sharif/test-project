@@ -10,13 +10,13 @@ import java.util.List;
 @RequestMapping(value = "/customer")
 public class CustomerPrimaryDataController {
 
-    @Autowired
-    private CustomerPrimaryDataService customerPrimaryDataService;
+//    @Autowired
+//    private CustomerPrimaryDataService customerPrimaryDataService;
 
-    @GetMapping("/data")
-    List<AccountBasicInfoProjection> getData(@RequestParam(required = false) String account,
-                                         @RequestParam(required = false) String card) throws Exception{
-        return customerPrimaryDataService.getCustomerPrimaryData(account,card);
-    }
+//    @GetMapping("/data")
+//    List<AccountBasicInfoProjection> getData(@RequestParam(required = false) String account,
+//                                         @RequestParam(required = false) String card) throws Exception{
+//        return  //customerPrimaryDataService.getCustomerPrimaryData(account,card);
+//    }
 
 }

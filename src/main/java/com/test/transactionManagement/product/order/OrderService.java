@@ -8,12 +8,12 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class OrderService {
 
-    private final OrderRepository orderRepository;
-
-    public Order addOrder(Order order) throws Exception{
-
-        Order orderDao = orderRepository.save(order);
-        return orderDao;
-    }
+//    private final OrderRepository orderRepository;
+//
+//    public Order addOrder(Order order) throws Exception{
+//
+//        Order orderDao = orderRepository.save(order);
+//        return orderDao;
+//    }
 
 }
