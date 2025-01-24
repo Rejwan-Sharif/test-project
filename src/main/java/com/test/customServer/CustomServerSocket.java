@@ -7,6 +7,7 @@ import org.springframework.util.StopWatch;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Arrays;
@@ -28,6 +29,7 @@ public class CustomServerSocket {
         System.out.println("The Request is running on Port : " + PORT);
         while (true) {
             Socket socket = serverSocket.accept();
+            System.out.println("Client Ip Address : "+((InetSocketAddress) socket.getRemoteSocketAddress()).getHostString());
 
                 service.submit(() -> {
                     try {

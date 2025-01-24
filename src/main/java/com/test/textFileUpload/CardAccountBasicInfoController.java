@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class CardAccountBasicInfoController {
 
-    private final CardCastomerBasicInfoService cardCastomerBasicInfoService;
-
-    @GetMapping("/save")
-    @ResponseStatus(HttpStatus.OK)
-    public String getCardData(){
-        cardCastomerBasicInfoService.getTextFileData();
-
-        return "Success";
-    }
+//    private final CardCastomerBasicInfoService cardCastomerBasicInfoService;
+//
+//    @GetMapping("/save")
+//    @ResponseStatus(HttpStatus.OK)
+//    public String getCardData(){
+//        cardCastomerBasicInfoService.getTextFileData();
+//
+//        return "Success";
+//    }
 
 }

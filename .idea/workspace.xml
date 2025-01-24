@@ -5,20 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="620e34f0-6956-4637-98bd-42b12d31be5d" name="Default Changelist" comment="Transection adedd">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/aspect/Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customServer/CustomServerSocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/services/RemoteServerCallService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customFilterChain/FilterConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customFilterChain/IPLoggerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customFilterChain/MyLogerFilterChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customFilterChain/MyLoggerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customFilterChain/ThreadSecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customFilterChain/TimeLoggerFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customInterceptor/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/customInterceptor/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/builderDesignPettern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/builderDesignPettern/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/orders/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/orders/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/filterAndInterceptor/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/filterAndInterceptor/DDOSAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/filterAndInterceptor/FilterLogInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/MathClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/MathClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/TestDummyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/TestDummyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/aspect/AspectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/aspect/AspectTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/customServer/CustomServerSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/customServer/CustomServerSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/Address/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/Address/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/customers/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/customers/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/products/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/products/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/vendor/Vendor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/ecommerce/vendor/Vendor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/projectionsTesting/CustomerPrimaryDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/springParactice/basicSpring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardAccountBasicInfoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardCastomerBasicInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/textFileUpload/CardCastomerBasicInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/transactionManagement/product/product/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-rejwan.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-rejwan.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/TestingDummyClass/MathClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/TestingDummyClass/MathClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/TestingDummyClass/TestDummyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/TestingDummyClass/TestDummyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/aspect/AspectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/aspect/AspectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/customServer/CustomServerSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/customServer/CustomServerSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/ecommerce/Address/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/Address/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/ecommerce/customers/Customers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/customers/Customers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/ecommerce/products/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/products/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/ecommerce/vendor/Vendor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/ecommerce/vendor/Vendor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/projectionsTesting/CustomerPrimaryDataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/springParactice/basicSpring/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardAccountBasicInfoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardCastomerBasicInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/textFileUpload/CardCastomerBasicInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/order/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/transactionManagement/product/product/ProductService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,26 +485,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CustomServerSocket.executor": "Debug",
-    "Application.Main (4).executor": "Debug",
-    "Application.Main.executor": "Debug",
-    "Application.Test.executor": "Debug",
-    "Application.TestEventApp.executor": "Run",
-    "Application.com.test.springParactice.basicSpring.Main.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "rejwan",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/my-projects/vacanza/pom.xml",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CustomServerSocket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestEventApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.test.designPettern.builderDesignPettern.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.test.springParactice.basicSpring.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rejwan&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my-projects/test-project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="C:\Users\HP\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="da144aa5-f6c0-4397-a6f3-527724cdf4da" reportId="application/qodana/2024-09-04" />
@@ -460,6 +513,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test.customInterceptor" />
       <recent name="com.test.springParactice.basicSpring" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -487,7 +541,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CustomServerSocket">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="CustomServerSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="application.properties" value="rejwan" />
@@ -524,7 +578,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <envs>
-        <env name="application.properties" value="rejwan" />
+        <env name="application.properties" value="dev" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.test.Test" />
       <module name="application" />
@@ -557,12 +611,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.test.springParactice.basicSpring.Main" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.springParactice.basicSpring.Main" />
+    <configuration name="com.test.designPettern.builderDesignPettern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="application.properties" value="rejwan" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.test.designPettern.builderDesignPettern.Main" />
       <module name="application" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.springParactice.basicSpring.*" />
+          <option name="PATTERN" value="com.test.designPettern.builderDesignPettern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -590,15 +647,15 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.TestEventApp" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.com.test.springParactice.basicSpring.Main" />
+      <item itemvalue="Application.com.test.designPettern.builderDesignPettern.Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomServerSocket" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestEventApp" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.test.springParactice.basicSpring.Main" />
+        <item itemvalue="Application.com.test.designPettern.builderDesignPettern.Main" />
+        <item itemvalue="Application.CustomServerSocket" />
+        <item itemvalue="Application.TestEventApp" />
       </list>
     </recent_temporary>
   </component>
@@ -681,7 +738,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727890076491</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Transection adedd">
+      <option name="closed" value="true" />
+      <created>1728929652730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728929652730</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Transection adedd">
+      <option name="closed" value="true" />
+      <created>1728929716958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728929716958</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

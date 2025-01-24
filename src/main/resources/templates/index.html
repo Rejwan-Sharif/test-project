@@ -2,9 +2,181 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard with Charts and Table</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        .card h2.costs { background-color: #4caf50; }
+        .card h2.allocation { background-color: #3f51b5; }
+        .card h2.burn-down { background-color: #ff9800; }
+        .card h2.status { background-color: #ffc107; }
+        .card h2.dashboard { background-color: #009688; }
+        .card h2.expenses { background-color: #8bc34a; }
+        canvas { max-width: 100%; height: 200px; }
+        .table-container {
+            width: 100%;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
-<h3>Hello World</h3>
+<h1>Free Dashboard Templates</h1>
+<div class="container">
+    <div class="card">
+        <h2 class="costs">Costs</h2>
+        <canvas id="costsChart"></canvas>
+    </div>
+    <div class="card">
+        <h2 class="allocation">Allocation</h2>
+        <canvas id="allocationChart"></canvas>
+    </div>
+    <div class="card">
+        <h2 class="burn-down">Burn Down</h2>
+        <canvas id="burnDownChart"></canvas>
+    </div>
+    <div class="card">
+        <h2 class="status">Status</h2>
+        <canvas id="statusChart"></canvas>
+    </div>
+    <div class="card">
+        <h2 class="dashboard">Dashboard</h2>
+        <canvas id="dashboardChart"></canvas>
+    </div>
+    <div class="card">
+        <h2 class="expenses">Expenses</h2>
+        <canvas id="expensesChart"></canvas>
+    </div>
+</div>
+
+<div class="table-container">
+    <h2 style="text-align:center; margin-bottom:20px;">Detailed Data Table</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+            <th>Column 4</th>
+            <th>Column 5</th>
+            <th>Column 6</th>
+            <th>Column 7</th>
+            <th>Column 8</th>
+            <th>Column 9</th>
+            <th>Column 10</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Example rows -->
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+            <td>Data 7</td>
+            <td>Data 8</td>
+            <td>Data 9</td>
+            <td>Data 10</td>
+        </tr>
+        <tr>
+            <td>Data 11</td>
+            <td>Data 12</td>
+            <td>Data 13</td>
+            <td>Data 14</td>
+            <td>Data 15</td>
+            <td>Data 16</td>
+            <td>Data 17</td>
+            <td>Data 18</td>
+            <td>Data 19</td>
+            <td>Data 20</td>
+        </tr>
+        <!-- Add more rows dynamically -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+    // Costs Bar Chart
+    const costsChart = new Chart(document.getElementById('costsChart'), {
+        type: 'bar',
+        data: {
+            labels: ['Jan', 'Feb', 'Mar', 'Apr'],
+            datasets: [{
+                label: 'Costs (in Million Dollars)',
+                data: [10, 20, 15, 25],
+                backgroundColor: '#4caf50',
+                borderColor: '#388e3c',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: true }
+            }
+        }
+    });
+
+    // Additional charts can remain the same
+</script>
 </body>
 </html>

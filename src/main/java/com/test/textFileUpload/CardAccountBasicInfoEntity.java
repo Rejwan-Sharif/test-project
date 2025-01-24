@@ -3,16 +3,16 @@ package com.test.textFileUpload;
 
 import lombok.Data;
 
-import javax.persistence.*;
+//import javax.persistence.*;
 import java.util.Date;
 
 @Data
-@Entity
-@Table(name = "CRAD_ACCOUNT_BASIC_INFO")
+//@Entity
+//@Table(name = "CRAD_ACCOUNT_BASIC_INFO")
 public class CardAccountBasicInfoEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
 
     private String clientId;
