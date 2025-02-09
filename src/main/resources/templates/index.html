@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,8 +57,8 @@
 <h1>Free Dashboard Templates</h1>
 <div class="container">
     <div class="card">
-        <h2 class="costs">Costs</h2>
-        <canvas id="costsChart"></canvas>
+        <h2 class="costs">Total Request</h2>
+        <canvas id="requestsChart"></canvas>
     </div>
     <div class="card">
         <h2 class="allocation">Allocation</h2>
@@ -83,143 +83,256 @@
 </div>
 <div class="table-container">
     <h2 style="text-align:center; margin-bottom:20px;">Detailed Data Table</h2>
-    <table>
+    <table border="1px solid">
         <thead>
         <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
-            <th>Column 4</th>
-            <th>Column 5</th>
-            <th>Column 6</th>
-            <th>Column 7</th>
-            <th>Column 8</th>
-            <th>Column 9</th>
-            <th>Column 10</th>
+            <th>Ip Address</th>
+            <th>Method Name</th>
+            <th>Path</th>
+            <th>Page Name</th>
+            <th>Thread</th>
+            <th>Consumed Time</th>
+            <th>Time</th>
         </tr>
         </thead>
         <tbody>
-        <!-- Example rows -->
-        <tr>
-            <td>Data 1</td>
-            <td>Data 2</td>
-            <td>Data 3</td>
-            <td>Data 4</td>
-            <td>Data 5</td>
-            <td>Data 6</td>
-            <td>Data 7</td>
-            <td>Data 8</td>
-            <td>Data 9</td>
-            <td>Data 10</td>
+        <tr th:each="info : ${infoData}">
+            <td th:text="${info.ip}"></td>
+            <td th:text="${info.method}"></td>
+            <td th:text="${info.path}"></td>
+            <td th:text="${info.pageName}"></td>
+            <td th:text="${info.thread}"></td>
+            <td th:text="${info.consumedTime}"></td>
+            <td th:text="${info.time}"></td>
         </tr>
-        <tr>
-            <td>Data 11</td>
-            <td>Data 12</td>
-            <td>Data 13</td>
-            <td>Data 14</td>
-            <td>Data 15</td>
-            <td>Data 16</td>
-            <td>Data 17</td>
-            <td>Data 18</td>
-            <td>Data 19</td>
-            <td>Data 20</td>
-        </tr>
-
         </tbody>
     </table>
 </div>
 
 <script>
-    // Costs Bar Chart
-    const costsChart = new Chart(document.getElementById('costsChart'), {
-        type: 'bar',
-        data: {
-            labels: ['Jan', 'Feb', 'Mar', 'Apr'],
-            datasets: [{
-                label: 'Costs (in Million Dollars)',
-                data: [10, 20, 15, 25],
-                backgroundColor: '#4caf50',
-                borderColor: '#388e3c',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            plugins: {
-                legend: { display: true }
-            }
-        }
-    });
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('/analytics/request-data')  // Fetch data from backend
+            .then(response => response.json())
+            .then(data => {
+                console.log("Fetched Data:", data); // Debugging log
 
+                // Process data for pie chart (count requests per method)
+                let methodCounts = {};
+                data.forEach(item => {
+                    methodCounts[item.method] = (methodCounts[item.method] || 0) + 1;
+                });
+
+                let labels = Object.keys(methodCounts);
+                let values = Object.values(methodCounts);
+                let colors = ['#4caf50', '#3f51b5', '#ff9800', '#8bc34a', '#e91e63']; // Color palette
+
+                // Create Pie Chart
+                new Chart(document.getElementById('requestsChart'), {
+                    type: 'pie',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: values,
+                            backgroundColor: colors
+                        }]
+                    },
+                    options: { responsive: true }
+                });
+            })
+            .catch(error => console.error("Error fetching data:", error));
+    });
     // Allocation Stacked Bar Chart
-    const allocationChart = new Chart(document.getElementById('allocationChart'), {
-        type: 'bar',
-        data: {
-            labels: ['Name 1', 'Name 2', 'Name 3', 'Name 4'],
-            datasets: [
-                { label: 'Series 1', data: [5, 7, 9, 6], backgroundColor: '#3f51b5' },
-                { label: 'Series 2', data: [4, 6, 8, 5], backgroundColor: '#ff9800' },
-                { label: 'Series 3', data: [3, 5, 7, 4], backgroundColor: '#8bc34a' }
-            ]
-        },
-        options: {
-            responsive: true,
-            plugins: { legend: { position: 'top' } },
-            scales: { x: { stacked: true }, y: { stacked: true } }
-        }
+   document.addEventListener("DOMContentLoaded", function () {
+        fetch('/analytics/request-data')  // Fetch data from backend
+            .then(response => response.json())
+            .then(data => {
+                console.log("Fetched Data:", data); // Debugging log
+
+                // Group data by thread names and count occurrences
+                let threadCounts = {};
+                data.forEach(item => {
+                    threadCounts[item.thread] = (threadCounts[item.thread] || 0) + 1;
+                });
+
+                let labels = Object.keys(threadCounts); // Thread names as labels
+                let values = Object.values(threadCounts); // Count per thread
+
+                let backgroundColors = ['#3f51b5', '#ff9800', '#8bc34a', '#e91e63', '#009688']; // Color palette
+
+                // Update Bar Chart
+                new Chart(document.getElementById('allocationChart'), {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [
+                            {
+                                label: 'Thread Count',
+                                data: values,
+                                backgroundColor: backgroundColors.slice(0, labels.length) // Assign colors dynamically
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: { legend: { position: 'top' } },
+                        scales: { x: { stacked: true }, y: { stacked: true } }
+                    }
+                });
+            })
+            .catch(error => console.error("Error fetching data:", error));
     });
 
     // Burn Down Line Chart
-    const burnDownChart = new Chart(document.getElementById('burnDownChart'), {
-        type: 'line',
-        data: {
-            labels: ['Jan', 'Feb', 'Mar', 'Apr'],
-            datasets: [
-                { label: 'Series 1', data: [5, 3, 4, 6], borderColor: '#3f51b5', fill: false },
-                { label: 'Series 2', data: [4, 5, 3, 4], borderColor: '#ff9800', fill: false },
-                { label: 'Series 3', data: [3, 4, 5, 3], borderColor: '#8bc34a', fill: false }
-            ]
-        },
-        options: { responsive: true }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('/analytics/request-data')  // Fetch data from backend
+            .then(response => response.json())
+            .then(data => {
+                console.log("Fetched Data:", data); // Debugging log
+
+                // Extract time labels and corresponding consumed times
+                let labels = data.map(item => item.time);  // Assuming 'time' field exists
+                let consumedTimes = data.map(item => parseFloat(item.consumedTime) || 0);  // Convert to number
+
+                // Update Burn Down Chart
+                new Chart(document.getElementById('burnDownChart'), {
+                    type: 'line',
+                    data: {
+                        labels: labels,  // X-axis (time)
+                        datasets: [{
+                            label: 'Consumed Time',
+                            data: consumedTimes,  // Y-axis (consumed time)
+                            borderColor: '#3f51b5',
+                            fill: false
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: { legend: { position: 'top' } },
+                        scales: {
+                            x: { title: { display: true, text: 'Time' } },
+                            y: { title: { display: true, text: 'Consumed Time (ms)' } }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error("Error fetching data:", error));
     });
 
-    // Status Gauge Chart (using Polar Area Chart as an approximation)
-    const statusChart = new Chart(document.getElementById('statusChart'), {
-        type: 'doughnut',
-        data: {
-            labels: ['Progress', 'Remaining'],
-            datasets: [{
-                data: [60, 40],
-                backgroundColor: ['#ffc107', '#ddd']
-            }]
-        },
-        options: { responsive: true, cutout: '80%' }
-    });
+
 
     // Dashboard Speedometer (Gauge-like using Doughnut)
-    const dashboardChart = new Chart(document.getElementById('dashboardChart'), {
-        type: 'doughnut',
-        data: {
-            labels: ['Current', 'Remaining'],
-            datasets: [{
-                data: [40, 60],
-                backgroundColor: ['#009688', '#ddd']
-            }]
-        },
-        options: { responsive: true, cutout: '70%' }
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('/analytics/request-data')  // Fetch data from backend
+            .then(response => response.json())
+            .then(data => {
+                console.log("Fetched Data:", data); // Debugging log
+
+                // Group data by path and count occurrences
+                let pathCounts = {};
+                data.forEach(item => {
+                    pathCounts[item.path] = (pathCounts[item.path] || 0) + 1;
+                });
+
+                let labels = Object.keys(pathCounts); // Path names as labels
+                let values = Object.values(pathCounts); // Count per path
+                let backgroundColors = ['#ffc107', '#ff9800', '#3f51b5', '#8bc34a', '#e91e63', '#009688']; // Color palette
+
+                // Update Status Chart
+                new Chart(document.getElementById('statusChart'), {
+                    type: 'doughnut',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: values,
+                            backgroundColor: backgroundColors.slice(0, labels.length) // Assign colors dynamically
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        cutout: '80%',
+                        plugins: { legend: { position: 'top' } }
+                    }
+                });
+            })
+            .catch(error => console.error("Error fetching data:", error));
     });
 
-    // Expenses Pie Chart
-    const expensesChart = new Chart(document.getElementById('expensesChart'), {
-        type: 'pie',
-        data: {
-            labels: ['1st Qtr', '2nd Qtr', '3rd Qtr', '4th Qtr'],
-            datasets: [{
-                data: [15, 25, 15, 60],
-                backgroundColor: ['#4caf50', '#3f51b5', '#ff9800', '#8bc34a']
-            }]
-        },
-        options: { responsive: true }
+document.addEventListener("DOMContentLoaded", function () {
+        fetch('/analytics/request-data')  // Fetch data from backend
+            .then(response => response.json())
+            .then(data => {
+                console.log("Fetched Data:", data); // Debugging log
+
+                // Group data by method and count occurrences
+                let methodCounts = {};
+                data.forEach(item => {
+                    methodCounts[item.method] = (methodCounts[item.method] || 0) + 1;
+                });
+
+                let labels = Object.keys(methodCounts); // HTTP method names
+                let values = Object.values(methodCounts); // Count per method
+                let backgroundColors = ['#009688', '#ff9800', '#3f51b5', '#8bc34a', '#e91e63', '#ffc107']; // Color palette
+
+                // Update Dashboard Chart
+                new Chart(document.getElementById('dashboardChart'), {
+                    type: 'doughnut',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            data: values,
+                            backgroundColor: backgroundColors.slice(0, labels.length) // Assign colors dynamically
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        cutout: '70%',
+                        plugins: { legend: { position: 'top' } }
+                    }
+                });
+            })
+            .catch(error => console.error("Error fetching data:", error));
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch('/analytics/request-data')  // Fetch data from backend
+            .then(response => response.json())
+            .then(data => {
+                console.log("Fetched Data:", data); // Debugging log
+
+                // Group data by time (assuming you want to categorize by some time attribute like 'time')
+                let timeCategories = ['1st Qtr', '2nd Qtr', '3rd Qtr', '4th Qtr'];
+                let timeCounts = [0, 0, 0, 0];
+
+                data.forEach(item => {
+                    // Example: Classify time into quarters (this could be customized)
+                    let time = item.time; // Assuming 'time' is the field you're working with
+                    if (time.includes('Q1')) {
+                        timeCounts[0] += 1;
+                    } else if (time.includes('Q2')) {
+                        timeCounts[1] += 1;
+                    } else if (time.includes('Q3')) {
+                        timeCounts[2] += 1;
+                    } else if (time.includes('Q4')) {
+                        timeCounts[3] += 1;
+                    }
+                });
+
+                new Chart(document.getElementById('expensesChart'), {
+                    type: 'pie',
+                    data: {
+                        labels: timeCategories,
+                        datasets: [{
+                            data: timeCounts,
+                            backgroundColor: ['#4caf50', '#3f51b5', '#ff9800', '#8bc34a']
+                        }]
+                    },
+                    options: {
+                        responsive: true
+                    }
+                });
+            })
+            .catch(error => console.error("Error fetching data:", error));
     });
 </script>
 </body>
