@@ -258,7 +258,7 @@
             .catch(error => console.error("Error fetching data:", error));
     });
 
-document.addEventListener("DOMContentLoaded", function () {
+   document.addEventListener("DOMContentLoaded", function () {
         fetch('/analytics/request-data')  // Fetch data from backend
             .then(response => response.json())
             .then(data => {
@@ -267,7 +267,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Group data by method and count occurrences
                 let methodCounts = {};
                 data.forEach(item => {
-                    methodCounts[item.method] = (methodCounts[item.method] || 0) + 1;
+                    methodCounts[item.ip] = (methodCounts[item.ip] || 0) + 1;
                 });
 
                 let labels = Object.keys(methodCounts); // HTTP method names
@@ -294,7 +294,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .catch(error => console.error("Error fetching data:", error));
     });
 
-    document.addEventListener("DOMContentLoaded", function () {
+   document.addEventListener("DOMContentLoaded", function () {
         fetch('/analytics/request-data')  // Fetch data from backend
             .then(response => response.json())
             .then(data => {
@@ -318,6 +318,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                 });
 
+                // Update Expenses Chart with time counts
                 new Chart(document.getElementById('expensesChart'), {
                     type: 'pie',
                     data: {

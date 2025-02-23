@@ -53,12 +53,12 @@ public class SimpleInterceptorImpl implements HandlerInterceptor {
        infoDto.setPath(request.getRequestURI());
        infoDto.setMethod(request.getMethod());
        infoDto.setTime(time);
-       infoDto.setPageName((String)request.getAttribute("page-name"));
+       infoDto.setPageName(String.valueOf(request.getAttribute("page-name")));
        infoDto.setThread(Thread.currentThread().getName());
        infoDto.setConsumedTime(Long.valueOf(String.valueOf(et-st)));
        requestRepo.addRequestTracker(infoDto);
-       log.info("ip - {}",infoDto);
-       log.info("time {}",time);
+//       log.info("ip - {}",infoDto);
+//       log.info("time {}",time);
         HandlerInterceptor.super.preHandle(request, response, handler);
     }
 }
