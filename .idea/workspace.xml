@@ -4,26 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620e34f0-6956-4637-98bd-42b12d31be5d" name="Default Changelist" comment="Analytics Tool Added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/pubsub/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/pubsub/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/designPettern/pubsub/Subscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/errorHandling/CustomErrorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/errorHandling/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/errorHandling/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/errorHandling/MathException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/errorHandling/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/4xx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/5xx.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/MathClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/MathClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/TestDummyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/TestingDummyClass/TestDummyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/customInterceptor/SimpleInterceptorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/customInterceptor/SimpleInterceptorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-rejwan.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+    <list default="true" id="620e34f0-6956-4637-98bd-42b12d31be5d" name="Default Changelist" comment="Exception Handler Added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/validation/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/errorHandling/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/errorHandling/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -453,32 +438,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.CustomServerSocket.executor": "Run",
-    "Application.Main (4).executor": "Debug",
-    "Application.Main.executor": "Run",
-    "Application.Test.executor": "Debug",
-    "Application.TestEventApp.executor": "Run",
-    "Application.com.test.designPettern.builderDesignPettern.Main.executor": "Debug",
-    "Application.com.test.designPettern.pubsub.Main.executor": "Debug",
-    "Application.com.test.springParactice.basicSpring.Main.executor": "Debug",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven.application [clean].executor": "Run",
-    "Maven.application [compile].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "rejwan",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/my-projects/test-project",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CustomServerSocket.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestEventApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.test.designPettern.builderDesignPettern.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.test.designPettern.pubsub.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.test.springParactice.basicSpring.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.application [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.application [compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;rejwan&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my-projects/test-project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.test.customInterceptor" />
@@ -776,7 +761,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739128403026</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exception Handler Added">
+      <option name="closed" value="true" />
+      <created>1740342426533</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740342426535</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Exception Handler Added">
+      <option name="closed" value="true" />
+      <created>1740342466977</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740342466977</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -849,7 +850,8 @@
     <MESSAGE value="Projections Added" />
     <MESSAGE value="Transection adedd" />
     <MESSAGE value="Analytics Tool Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Analytics Tool Added" />
+    <MESSAGE value="Exception Handler Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception Handler Added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/application$com_test_springParactice_basicSpring_Main.ic" NAME="com.test.springParactice.basicSpring.Main Coverage Results" MODIFIED="1725466379543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
