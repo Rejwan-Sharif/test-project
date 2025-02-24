@@ -1,9 +1,13 @@
 package com.test.TestingDummyClass;
 
+import com.test.errorHandling.MathException;
+import com.test.errorHandling.ResourceNotFoundException;
 import com.test.services.RemoteServerCallService;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
 
 @RestController
 @AllArgsConstructor
@@ -25,6 +29,23 @@ public class TestDummyController {
         String value1= String.valueOf(a);
         String value2 = String.valueOf(b);
         return value2;
+    }
+
+
+    @GetMapping("/calculate")
+    public int sum(@RequestParam("a") int a, @RequestParam("b") int b){
+        if (b==0){
+            throw new MathException("The value of b, can not be Zero");
+        }
+        return a/b;
+    }
+
+    @GetMapping("/hello")
+    public String hello(@RequestParam("id")String a){
+       return Arrays.asList("a","b","c").stream()
+               .filter(s -> s.equals(""))
+               .findFirst()
+               .orElseThrow(()->new ResourceNotFoundException("The Resouse Not Found"));
     }
 
 }
